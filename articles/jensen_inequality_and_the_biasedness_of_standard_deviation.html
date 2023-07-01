@@ -88,14 +88,14 @@
                         <p>If the function of the non-linear transformation is continuous, then we have either a convex (upward curve) or concave (downward curve) transformation.</p>
                         <p>When we apply a convex or concave transformation to a random variable, the expectation of the transformed variable is always greater (in convex transformation) or lower (in concave transformation) than the transformed of the expectation the random variable.</p>
 
-                        $$E(f(x)) \ge f(E(x))$$
-                        <p>,in convex transformation.</p>
-                        $$E(F(x)) \le f(E(x))$$
-                        <p>, in concave transformation,</p>
+                        $$E(f(x)) \ge f(E(x)),$$
+                        <p>in convex transformation.</p>
+                        $$E(F(x)) \le f(E(x)),$$
+                        <p>in concave transformation,</p>
 
                         <p>This rule is called Jensen’s Inequality. We can see why this is true by drawing.</p>
 
-                        <a href="#!"><img class="img-fluid" src="assets/img/post/jensen_inequality.jpg" alt="Jensen's Inequality Illustration" /></a>
+                        <a href="#!"><img class="img-fluid" src="assets\img\jensen_inequality.jpg" alt="Jensen's Inequality Illustration" /></a>
 
                         <p>Suppose $f(x)$ is a function of random variable and this function is a convex function as drawn as figure above. Also, suppose that all data points $x$ reside between point $a$ and point $b$. From this drawing, we can see that the expectation of $f(x)$, which shown as point $d$ is always greater than the function of expectation of $x$ as shwon as point $c$. We can also do the same thing with a concave function.</p>
 
@@ -106,10 +106,12 @@
 
                         $$\hat{\sigma}^2 = \frac{\sum_{} ^{} (Y_i - \hat{Y})^2}{n - 1}$$
 
+                        <p>With $Y_i$ as the data points, $\hat{Y}$ as the mean of the data points, and $n$ as the numbers of data points.</p>
+
                         <p>Standard deviation is defined as the square root of the variance. Because standard deviation is the square root of the variance, standard deviation is a concave transformation.</p>
                         <p>By using Jensen’s Inequality of concave transformation and the assumption that the variance of the random variable is not 0 (if the variance is indeed 0 then the data points are all the same) we have</p>
 
-                        $$E(\sqrt{(\hat{\sigma}^2}) < \sqrt{(E(\hat{\sigma}^2))}$$
+                        $$E(\sqrt{\hat{\sigma}^2} < \sqrt{E(\hat{\sigma}^2)}$$
 
                         <p>Thus we can conclude that standard deviation is a bias estimator.</p>
 
