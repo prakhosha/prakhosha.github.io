@@ -64,7 +64,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Let me begin by explaining that all calculation of parameters of data are just an estimations of the true parameters of the process (<a href="https://prakhosha.github.io/articles/a_story_on_statistics.html">you can read this article if you are confused about this part</a>).</p>
+                        <p>Let me begin by explaining that all calculation of parameters of data are only estimations of the true parameters of the process (<a href="https://prakhosha.github.io/articles/a_story_on_statistics.html">you can read this article if you are confused about this part</a>).</p>
                         <h2 class="section-heading">Estimation</h2>
                         <p>Estimation in statistics is such a huge topic. At the time of the writing, I can not cover all of this in one article. Maybe I will write about estimation in another article. But do not worry, we only need to know about biasedness of estimator to go further.</p>
                         <p>Let’s say you want to know the central tendency of a real world process. Usually, when people try to guess the central tendency of a real world process they use the mean. Especially the one where we use bootstrap sampling by summing all data points and divide them by the number of the data. Well, this mean is not the only way to calculate the central tendency of a data. There are many ways, one of which would be the median.</p>
@@ -99,9 +99,9 @@
 
                         <p>Suppose $f(x)$ is a function of random variable and this function is a convex function as drawn as figure above. Also, suppose that all data points $x$ reside between point $a$ and point $b$. From this drawing, we can see that the expectation of $f(x)$, which shown as point $d$ is always greater than the function of expectation of $x$ as shown as point $c$. We can also do the same thing with a concave function.</p>
 
-                        <p>Jensen’s inequality can be used to prove that standard deviation, even if we calculate it using the unbiased calculation of variances, will always be bias.</p>
+                        <p>Jensen’s inequality can be used to prove that standard deviation, even if we calculate it using the unbiased calculation of variance, will always be bias.</p>
                         <h2 class="section-heading">Biasedness of Standard Deviation</h2>
-                        <p>For the sake of simpler article, I am just going to use the unbiased version of the variances. Basically, variances is also bias and there are ways to fix this bias using Bessel’s correction. But I am not going to talk about this in this article (maybe in another one).</p>
+                        <p>For the sake of simpler article, I am just going to use the unbiased version of the variances. Basically, variance is also bias and there are ways to fix this bias using Bessel’s correction. But I am not going to talk about this in this article (maybe in another one).</p>
                         <p>The unbiased version of the variance is</p>
 
                         $$\hat{\sigma}^2 = \frac{\sum_{} ^{} (Y_i - \hat{Y})^2}{n - 1}$$
@@ -109,7 +109,7 @@
                         <p>With $Y_i$ as the data points, $\hat{Y}$ as the mean of the data points, and $n$ as the numbers of data points.</p>
 
                         <p>Standard deviation is defined as the square root of the variance. Because standard deviation is the square root of the variance, standard deviation is a concave transformation.</p>
-                        <p>By using Jensen’s Inequality of concave transformation and the assumption that the variance of the random variable is not 0 (if the variance is indeed 0 then the data points are all the same) we have</p>
+                        <p>By using Jensen’s inequality of concave transformation and the assumption that the variance of the random variable is not 0 (if the variance is indeed 0 then the data points are all the same) we have</p>
 
                         $$E(\sqrt{\hat{\sigma}^2}) < \sqrt{E(\hat{\sigma}^2)}$$
 
