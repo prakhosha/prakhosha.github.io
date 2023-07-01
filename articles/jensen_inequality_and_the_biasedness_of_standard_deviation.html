@@ -18,8 +18,10 @@
         <script type="text/x-mathjax-config">
           MathJax.Hub.Config({
             tex2jax: {
-              inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+              inlineMath: [['$','$'], ['\\(','\\)']], processEscapes: true}
+            });
+        </script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body>
 
@@ -84,6 +86,12 @@
                         <p>But this is only true for linear transformation and not for non-linear transformation.</p>
                         <h2 class="section-heading">Jensen’s Inequality</h2>
                         <p>If the function of the non-linear transformation is continuous, then we have either a convex (upward curve) or concave (downward curve) transformation.</p>
+                        <p>When we apply a convex or concave transformation to a random variable, the expectation of the transformed variable is always greater (in convex transformation) or lower (in concave transformation) than the transformed of the expectation the random variable.</p>
+                        <p>$E(f(x)) >= f(E(x))$, in convex transformation</p>
+                        <p>$E(F(x)) <= f(E(x))$, in concave transformation</p>
+                        <p>This rule is called Jensen’s Inequality. We can see why this is true by drawing.</p>
+                        <p>[drawing here]</p>
+                        <p>From this drawing, we can see that the function (or transformation) is convex. When we try to draw a line between point $a$ and $b$, we can see that the corresponding $f(x)$ of this line is always greater than the corresponding $f(x)$ of the function. Let’s say we choose $x = 2$, this correspond to $f(E(x))$ as $f(2) = …$. And $E(f(x))$ as $E(..) = …$. We can also do the same thing with a concave function.</p>
 
                     </div>
                 </div>
