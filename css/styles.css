@@ -1366,11 +1366,6 @@ progress {
     width: 8.33333333%;
   }
 
-  .just-p {
-    text-align:justify;
-    text-justify:values;
-  }
-
   .col-lg-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
