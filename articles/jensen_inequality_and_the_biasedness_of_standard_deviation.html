@@ -61,7 +61,6 @@
         </header>
         <!-- Post Content-->
         <article class="mb-4">
-          $$E(\hat{\theta}) \neq \theta$$
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -70,14 +69,14 @@
                         <p>Estimation in statistics is such a huge topic. At the time of the writing, I can not cover all of this in one article. Maybe I will write about estimation in another article. But do not worry, we only need to know about biasedness of estimator to go further.</p>
                         <p>Let’s say you want to know the central tendency of a real world process. Usually when people try to guess the central tendency of a real world process they use mean. Especially the one where we use bootstrap sampling by summing all data points and divide them by the number of the data. Well, this mean is not the only way to calculate the central tendency of a data. There are many ways, one of which would be the median.</p>
                         <p>Which one should we use then? The answer is depend. That is why the mean, the median, and all transformations in statistics are only estimators of the true process parameters in which we will never know. And because all transformations in statistics are only estimators, they can be wrong, or in another word there is a difference between the expected value of a parameter in our data and the true process. This is called bias, and it is defined mathematically as</p>
-                        {% raw %}
+
                         $$E(\hat{\theta}) \neq \theta$$
-                        {% endraw %}
+
                         <p>The punchline is that the standard deviation, an estimator of deviation of distribution, is bias. Which means when we try to model a real world process and collect the data, our standard deviation of the data is different than the true standard deviation.</p>
                         <p>In my knowledge, there are two ways to prove that standard deviation is a bias estimator. One which use manipulations of equations and another which use the infamous Jensen’s Inequality. This article will explain the biasedness of standard deviation through the lens of Jensen’s Inequality.</p>
                         <p>What is Jensen’s Inequality? Well let me first explain about transformation.</p>
                         <h2 class="section-heading">Transformation</h2>
-                        <p>In mathematics, a function is a mapping of numbers to another numbers. A function of $F(x) = 2 + x$, with x as real numbers for example is a function. Function can also be mapped to another function which can be called transformation. So, a function is just a subset of transformation.</p>
+                        <p>In mathematics, a function is a mapping of numbers to another numbers. A function of $F(x) = 2 + x$, with $x$ as real numbers for example is a function. Function can also be mapped to another function which can be called transformation. So, a function is just a subset of transformation.</p>
                         <p>In statistics (everything that involve random variables), it is natural for us to want to know the parameter of a real world process such as the mean, the median, the variances, etc. We calculate those parameters using transformations.</p>
                         <p>In linear transformation, it is natural to believe that the parameter of the transformed value, let’s say the expectation, is the same as the parameter of the random variable. Or in another word</p>
 
@@ -87,8 +86,8 @@
                         <h2 class="section-heading">Jensen’s Inequality</h2>
                         <p>If the function of the non-linear transformation is continuous, then we have either a convex (upward curve) or concave (downward curve) transformation.</p>
                         <p>When we apply a convex or concave transformation to a random variable, the expectation of the transformed variable is always greater (in convex transformation) or lower (in concave transformation) than the transformed of the expectation the random variable.</p>
-                        <p>$E(f(x)) >= f(E(x))$, in convex transformation</p>
-                        <p>$E(F(x)) <= f(E(x))$, in concave transformation</p>
+                        <p>$$E(f(x)) \ge f(E(x))/text(, in convex transformation)$$</p>
+                        <p>$E(F(x)) \le f(E(x))$, in concave transformation</p>
                         <p>This rule is called Jensen’s Inequality. We can see why this is true by drawing.</p>
                         <p>[drawing here]</p>
                         <p>From this drawing, we can see that the function (or transformation) is convex. When we try to draw a line between point $a$ and $b$, we can see that the corresponding $f(x)$ of this line is always greater than the corresponding $f(x)$ of the function. Let’s say we choose $x = 2$, this correspond to $f(E(x))$ as $f(2) = …$. And $E(f(x))$ as $E(..) = …$. We can also do the same thing with a concave function.</p>
@@ -97,8 +96,13 @@
                         <h2 class="section-heading">Biasedness of Standard Deviation</h2>
                         <p>For the sake of simpler article, I am just gonna use the unbiased version of the variances. Basically, variances is also bias and there are ways to fix this bias using Bessel’s correction. But I am not going to talk about this in this article (maybe in another one).</p>
                         <p>The unbiased version of the variance is</p>
-                        <p>$$formula$$</p>
+                        $$formula$$
                         <p>Standard deviation is defined as the square root of the variance. Because standard deviation is the square root of the variance, standard deviation is a concave transformation.</p>
+                        <p>By using Jensen’s Inequality of concave transformation and the assumption that the variance of the random variable is not 0 (if the variance is indeed 0 then the data points are all the same) we have</p>
+
+                        $$E(\sqrt{(\hat{\sigma}^2}) < \sqrt{(E(\hat{\sigma}^2))}$$
+
+                        <p>Thus we can conclude that standard deviation is a bias estimator.</p>
 
                     </div>
                 </div>
