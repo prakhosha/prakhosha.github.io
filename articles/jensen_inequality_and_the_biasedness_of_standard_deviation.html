@@ -15,6 +15,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../css/styles.css" rel="stylesheet" />
         <!-- Mathjax for Latex -->
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
         <script type="text/javascript" src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body>
@@ -64,11 +65,12 @@
                         <p>Which one should we use then? The answer is depend. That is why the mean, the median, and all transformations in statistics are only estimators of the true process parameters in which we will never know. And because all transformations in statistics are only estimators, they can be wrong, or in another word there is a difference between the expected value of a parameter in our data and the true process. This is called bias, and it is defined mathematically as</p>
 
                         $$E(\hat{\theta}) \neq \theta$$
+
                         <p>The punchline is that the standard deviation, an estimator of deviation of distribution, is bias. Which means when we try to model a real world process and collect the data, our standard deviation of the data is different than the true standard deviation.</p>
                         <p>In my knowledge, there are two ways to prove that standard deviation is a bias estimator. One which use manipulations of equations and another which use the infamous Jensen’s Inequality. This article will explain the biasedness of standard deviation through the lens of Jensen’s Inequality.</p>
                         <p>What is Jensen’s Inequality? Well let me first explain about transformation.</p>
                         <h2 class="section-heading">Transformation</h2>
-                        <p>In mathematics, a function is a mapping of numbers to another numbers. A function of $$F(x) = 2 + x$$, with x as real numbers for example is a function. Function can also be mapped to another function which can be called transformation. So, a function is just a subset of transformation.</p>
+                        <p>In mathematics, a function is a mapping of numbers to another numbers. A function of $F(x) = 2 + x$, with x as real numbers for example is a function. Function can also be mapped to another function which can be called transformation. So, a function is just a subset of transformation.</p>
                         <p>
                             Placeholder text by
                             <a href="http://spaceipsum.com/">Space Ipsum</a>
