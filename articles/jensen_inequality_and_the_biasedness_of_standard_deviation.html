@@ -16,9 +16,11 @@
         <link href="../css/styles.css" rel="stylesheet" />
         <!-- Mathjax for Latex -->
         <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-        <script type="text/javascript" src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body>
+      <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -71,12 +73,15 @@
                         <p>What is Jensen’s Inequality? Well let me first explain about transformation.</p>
                         <h2 class="section-heading">Transformation</h2>
                         <p>In mathematics, a function is a mapping of numbers to another numbers. A function of $F(x) = 2 + x$, with x as real numbers for example is a function. Function can also be mapped to another function which can be called transformation. So, a function is just a subset of transformation.</p>
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
+                        <p>In statistics (everything that involve random variables), it is natural for us to want to know the parameter of a real world process such as the mean, the median, the variances, etc. We calculate those parameters using transformations.</p>
+                        <p>In linear transformation, it is natural to believe that the parameter of the transformed value, let’s say the expectation, is the same as the parameter of the random variable. Or in another word</p>
+
+                        $$E(f(x)) = f(E(x))$$
+
+                        <p>But this is only true for linear transformation and not for non-linear transformation.</p>
+                        <h2 class="section-heading">Jensen’s Inequality</h2>
+                        <p>If the function of the non-linear transformation is continuous, then we have either a convex (upward curve) or concave (downward curve) transformation.</p>
+
                     </div>
                 </div>
             </div>
