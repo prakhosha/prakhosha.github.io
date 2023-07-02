@@ -75,15 +75,17 @@
 
                         <p>The punchline is that the standard deviation, an estimator of deviation of distribution, is bias. Which means when we try to model a real world process and collect the data, our standard deviation of the data is different than the true standard deviation.</p>
                         <p>In my current knowledge, there are two ways to prove that standard deviation is a bias estimator. One which use manipulations of equations and another which use the infamous Jensen’s inequality. This article will explain the biasedness of standard deviation through the lens of Jensen’s inequality.</p>
-                        <p>What is Jensen’s Inequality? Well let me first explain about transformation.</p>
+                        <p>What is Jensen’s inequality? Well let me first explain about transformation.</p>
+
                         <h2 class="section-heading">Transformation</h2>
                         <p>In mathematics, a function is a mapping of numbers to another numbers. A function of $f(x) = 2 + x$, with $x$ as real numbers for example is a function. Function can also be mapped to another function which can be called transformation. So, a function is just a subset of transformation.</p>
-                        <p>In statistics (everything that involve random variables), it is natural for us to want to know the parameter of a real world process such as the mean, the median, the variances, etc. We calculate those parameters using transformations.</p>
+                        <p>In statistics (or everything that involve random variables), it is natural for us to want to know the parameter of a real world process such as the mean, the median, the variances, etc. We calculate those parameters using transformations.</p>
                         <p>In linear transformation, it is natural to believe that the parameter, let’s say the expectation, of the transformed function is the same as the transformed function of the parameter, in this case the expectation. Or in another word</p>
 
                         $$E(f(x)) = f(E(x))$$
 
                         <p>But this is only true for linear transformation and not for non-linear transformation.</p>
+
                         <h2 class="section-heading">Jensen’s Inequality</h2>
                         <p>If the function of the non-linear transformation is continuous, then we have either a convex (upward curve) or concave (downward curve) transformation.</p>
                         <p>When we apply a convex or concave transformation to a random variable, the expectation of the transformed variable is always greater (in convex transformation) or lower (in concave transformation) than the transformed of the expectation the random variable.</p>
@@ -100,8 +102,9 @@
                         <p>Suppose $f(x)$ is a function of random variable and this function is a convex function as drawn as figure above. Also, suppose that all data points $x$ reside between point $a$ and point $b$. From this drawing, we can see that the expectation of $f(x)$, which shown as point $d$ is always greater than the function of expectation of $x$ as shown as point $c$. We can also do the same thing with a concave function.</p>
 
                         <p>Jensen’s inequality can be used to prove that standard deviation, even if we calculate it using the unbiased calculation of variance, will always be bias.</p>
+
                         <h2 class="section-heading">Biasedness of Standard Deviation</h2>
-                        <p>For the sake of simpler article, I am just going to use the unbiased version of the variances. Basically, variance is also bias and there are ways to fix this bias using Bessel’s correction. But I am not going to talk about this in this article (maybe in another one).</p>
+                        <p>For the sake of simpler article, I am just going to use the unbiased version of the variance. Basically, variance is also bias and there are ways to fix this bias using Bessel’s correction. But I am not going to talk about this in this article (maybe in another one).</p>
                         <p>The unbiased version of the variance is</p>
 
                         $$\hat{\sigma}^2 = \frac{\sum_{} ^{} (Y_i - \hat{Y})^2}{n - 1}$$
