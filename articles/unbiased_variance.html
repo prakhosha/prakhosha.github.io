@@ -65,30 +65,66 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Statistics is all about estimating parameters of processes that produce random variables.</p>
-                        <p>An example of a parameter would be variance which describe or represent the variability of the process</p>
-                        <p>Often, we use this equation to calculate variance</p>
+                        <p>Statistics is all about estimating parameters of processes that produce random variables.
+                          An example of a parameter would be variance which describe or represent the variability of the process.
+                          Often, we use this equation to calculate variance</p>
 
                         $$\hat{\sigma} = \sqrt{\frac{1}{n-1}\sum_{i} ^{}(Y_i - \bar{Y})^2}$$
 
-                        <p>But why do we use $n - 1$ instead of $n$ in variance while we use $n$ in mean?</p>
-                        <p>The answer lies in estimation theory.</p>
+                        <p>But why do we use $n - 1$ instead of $n$ in variance while we use $n$ in mean? The answer lies in estimation theory.</p>
 
                         <h2 class="section-heading">Bias of Estimators</h2>
-                        <p>I have talked a little bit about biasedness of estimator <a href="https://prakhosha.github.io/articles/jensen_inequality_and_the_biasedness_of_standard_deviation.html">here</a></p>
-                        <p>Statistics try to model the world.</p>
-                        <p>Because it is a model, it has parameters.</p>
-                        <p>Parameters can be obtained by applying transformation to the data of the process.</p>
-                        <p>All transformations of random variables result in random variables.</p>
-                        <p>And because it is a random variable, it has a probability distribution</p>
-                        <p>This means that our model parameters, which we used to describe the model of the process, can be different than the true process.</p>
-                        <p>When the central tendency of the parameter of the model different from the true model, we called this bias or mathematically</p>
+                        <p>I have talked a little bit about biasedness of estimator <a href="https://prakhosha.github.io/articles/jensen_inequality_and_the_biasedness_of_standard_deviation.html">here</a>. Statistics try to model the world.
+                        Because it is a model, it has parameters.
+                        Parameters can be obtained by applying transformation to the data of the process.
+                        All transformations of random variables result in random variables.
+                        And because it is a random variable, it has a probability distribution.
+                        This means that our model parameters, which we used to describe the model of the process, can be different than the true process.
+                        When the central tendency of the parameter of the model different from the true model, we called this bias or mathematically
 
                         $$E(\hat{\theta}) \neq \theta$$
 
                         <p>The variance $\sigma$ of a random variable $Y$ is described as</p>
 
+                        $$\sigma^2 = E(Y-\mu)^2$$
                         $$\sigma^2 = \sum_{} ^{}(y-\mu)^2p(y)$$
+
+                        <p>If we have a process that produce data consists of $1, 2, 3, 4, 5$
+                        we would estimate that this process has mean of 3.
+                        And so unconsciously, we would compute the variance of this process as</p>
+
+                        $$\frac{1}{5}(1-3)^2 + \frac{1}{5}(2-3)^2 + \frac{1}{5}(3-3)^2 + \frac{1}{5}(4-3)^2 + \frac{1}{5}(5-3)^2$$
+
+                        <p>and this result in variance of 2.
+                        But most statistician would divide the data by $n-1$ instead of $n$ and this give a variance of 2.5</p>
+
+                        <p>But why would we use $n-1$ instead of $n$?
+                        We use $n$ in mean so it is natural we also use $n$ in variance, why would we need $n-1$?</p>
+
+                        <p>The answer is that this estimator of variance is bias and in order to correct this bias we need some correction.
+                        This correction is called Bessel's correction.</p>
+
+                        <h2 class="section-heading">Bessel's correction</h2>
+                        <p>How do we remove this bias?
+                        Obviously, to remove the bias we should now how much is the bias first.
+                        The true variance of the process is given by</p>
+
+                        $$\sigma^2 = E(Y-\mu)^2$$
+
+                        <p>What we are computing earlier is actually</p>
+
+                        $$E(Y-\bar{Y})$$
+
+                        <p>Why? because we use the mean of the sample $\bar{Y}$ instead of the true mean $\mu$.
+                        Now if we add and substract \mu from this equation we get</p>
+
+                        $$E(Y-\bar{Y})^2 = E{(Y-\mu)-(\bar{Y}-\mu)}^2$$
+
+                        <p>If we expand it, </p>
+
+                        $$E{(Y_i-\mu)^2 + (Y-\mu)^2 - 2(Y-i-\mu)(Y-\mu)}$$
+
+
                     </div>
                 </div>
             </div>
