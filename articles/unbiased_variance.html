@@ -79,8 +79,9 @@
                         Parameters can be obtained by applying transformation to the data of the process.
                         All transformations of random variables result in random variables.
                         And because it is a random variable, it has a probability distribution.
-                        This means that our model parameters, which we used to describe the model of the process, can be different than the true process.
-                        When the central tendency of the parameter of the model different from the true model, we called this bias or mathematically
+                        This means that our model parameters, which we used to describe the model of the process, can be different than the true process.</p>
+
+                        <p>When the central tendency of the parameter of the model different from the true model, we called this bias or mathematically</p>
 
                         $$E(\hat{\theta}) \neq \theta$$
 
@@ -90,13 +91,13 @@
                         $$\sigma^2 = \sum_{} ^{}(y-\mu)^2p(y)$$
 
                         <p>If we have a process that produce data consists of $1, 2, 3, 4, 5$
-                        we would estimate that this process has mean of 3.
+                        we would estimate that this process has mean of $3$.
                         And so unconsciously, we would compute the variance of this process as</p>
 
                         $$\frac{1}{5}(1-3)^2 + \frac{1}{5}(2-3)^2 + \frac{1}{5}(3-3)^2 + \frac{1}{5}(4-3)^2 + \frac{1}{5}(5-3)^2$$
 
-                        <p>and this result in variance of 2.
-                        But most statistician would divide the data by $n-1$ instead of $n$ and this give a variance of 2.5</p>
+                        <p>and this result in variance of $2$.
+                        But most statistician would divide the data by $n-1$ instead of $n$ and this give a variance of $2.5$.</p>
 
                         <p>But why would we use $n-1$ instead of $n$?
                         We use $n$ in mean so it is natural we also use $n$ in variance, why would we need $n-1$?</p>
@@ -116,13 +117,14 @@
                         $$E(Y-\bar{Y})$$
 
                         <p>Why? because we use the mean of the sample $\bar{Y}$ instead of the true mean $\mu$.
-                        Now if we add and substract \mu from this equation we get</p>
+                        Now if we add and substract $\mu$ from this equation we get</p>
 
                         $$E(Y-\bar{Y})^2 = E{(Y-\mu)-(\bar{Y}-\mu)}^2$$
 
                         <p>If we expand it, </p>
 
-                        $$E{(Y_i-\mu)^2 + (Y-\mu)^2 - 2(Y-i-\mu)(Y-\mu)}$$
+                        $$E{(Y_i-\mu)^2 + (Y-\mu)^2 - 2(Y_i-\mu)(Y-\mu)}$$
+
 
 
                     </div>
