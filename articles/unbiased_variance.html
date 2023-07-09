@@ -129,6 +129,37 @@
 
                         $$E\{(Y-\mu)^2\} + E\{(\bar{Y}-\mu)^2\} - 2E\{(Y-\mu)(\bar{Y}-\mu)\}$$
 
+                        <p>The left side of the equation is variance of $Y$ and it's value is $\sigma^2$.
+                        The middle part of the equation is variance of the mean and it is $\sigma^2/n$.
+                        Now, for the right term we get</p>
+
+                        $$E\{(Y - \mu)(\bar{Y} - \mu)\}$$
+
+                        <p>if we expand the $\bar{Y}$ we get</p>
+
+                        $$E\{(Y - \mu)[\frac{1}{n}(Y_1 - \mu) + \frac{1}{n}(Y_2 - \mu) + ... + \frac{1}{n}(Y_n - \mu)]\}$$
+
+                        <p>By linearity and additivity of expectation we get</p>
+
+                        $$\frac{1}{n}E\{(Y - \mu)(Y_1 - \mu)\} + \frac{1}{n}E\{(Y - \mu)(Y_2 - \mu)\} + ... + \frac{1}{n}E\{(Y - \mu)(Y_n - \mu)\}$$
+
+                        <p>This term is covariance between data points and if the data are independently sampled,
+                        the covariance between data points are $0$ except when the data point is being correlated with themselves,
+                        in which case it is $\sigma^2$. Hence we get</p>
+
+                        $$E\{(Y - \mu)(\bar{Y} - \mu)\} = \frac{\sigma^2}{n}$$
+
+                        <p>So the biased variance would be</p>
+
+                        $$E(Y - \bar{Y}) = E\{(Y - \mu)^2\} + E\{(\bar{Y} - \mu)^2\} - 2E\{(Y - \mu)(\bar{Y} - \mu)\}$$
+
+                        $$E(Y - \bar{Y}) = \sigma^2 + \frac{\sigma^2}{n} - 2\frac{\sigma^2}{n}$$
+
+                        $$E(Y - \bar{Y}) = \sigma^2 - \frac{\sigma^2}{n}$$
+                        $$E(Y - \bar{Y}) = \frac{(n - 1)}{n}\sigma^2$$
+
+                        <p>In order for the $$ to result in $\sigma^2$, we have to multiply this by $\frac{n}{n - 1}$
+
                     </div>
                 </div>
             </div>
