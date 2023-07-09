@@ -71,7 +71,7 @@
 
                         $$\hat{\sigma}^2 = \frac{1}{n-1}\sum_{i} ^{}(Y_i - \bar{Y})^2$$
 
-                        <p>Where $Y_i$ is a random variable from a process and $\bar{Y}$ is the estimated sample mean</p>
+                        <p>where $Y_i$ is a random variable from a process and $\bar{Y}$ is the estimated sample mean.</p>
                         <p>But why do we use $n - 1$ instead of $n$ in variance while we use $n$ in mean? The answer lies in estimation theory.</p>
 
                         <h2 class="section-heading">Bias of Estimators</h2>
@@ -87,7 +87,7 @@
 
                         $$E(\hat{\theta}) \neq \theta$$
 
-                        <p>Where $\hat{\theta}$ is our estimator and $\theta$ is the true parameter</p>
+                        <p>where $\hat{\theta}$ is our estimator and $\theta$ is the true parameter.</p>
                         <p>The variance $\sigma^2$ of a random variable $Y_i$ can be described as</p>
 
                         $$\sigma^2 = E(Y_i-\mu)^2$$
@@ -139,13 +139,13 @@
 
                         $$E\{(Y_i-\mu)(\bar{Y}-\mu)\}$$
 
-                        <p>if we expand the $\bar{Y}$ we get</p>
+                        <p>If we expand the $\bar{Y}$ we get</p>
 
                         $$E\{(Y_i - \mu)[\frac{1}{n}(Y_1 - \mu) + \frac{1}{n}(Y_2 - \mu) + ... + \frac{1}{n}(Y_n - \mu)]\}$$
 
                         <p>By linearity and additivity of expectation we get</p>
 
-                        $$\frac{1}{n}E\{(Y_i - \mu)(Y_1 - \mu)\} + \frac{1}{n}E\{(Y - \mu)(Y_2 - \mu)\} + ... + \frac{1}{n}E\{(Y - \mu)(Y_n - \mu)\}$$
+                        $$\frac{1}{n}E\{(Y_i - \mu)(Y_1 - \mu)\} + \frac{1}{n}E\{(Y_i - \mu)(Y_2 - \mu)\} + ... + \frac{1}{n}E\{(Y_i - \mu)(Y_n - \mu)\}$$
 
                         <p>This term is covariances between data points and we can rewrite it as</p>
 
@@ -157,7 +157,7 @@
 
                         $$E\{(Y_i-\mu)(\bar{Y} - \mu)\} = \frac{\sigma^2}{n}$$
 
-                        <p>So the biased variance would be</p>
+                        <p>so the biased variance would be</p>
 
                         $$E(Y_i - \bar{Y}) = E\{(Y_i - \mu)^2\} + E\{(\bar{Y} - \mu)^2\} - 2E\{(Y_i - \mu)(\bar{Y} - \mu)\}$$
 
@@ -175,6 +175,8 @@
                         $$\hat{\sigma}^2 = \frac{n}{n-1} \cdot \frac{1}{n}\sum_{i} ^{}(Y_i - \bar{Y})^2$$
 
                         $$\hat{\sigma}^2 = \frac{1}{n-1}\sum_{i} ^{}(Y_i - \bar{Y})^2$$
+
+                        <p>This is the corrected, or in another word the unbiased, estimator of variance.</p>
 
                         <p>I was in my second year in university when I stumbled upon this equation during my lecture.
                         At that time I was confused why we use $n-1$ instead of $n$ and ask that question to my lecturer.
