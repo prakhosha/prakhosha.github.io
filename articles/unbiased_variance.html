@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Angga's Public Journal</title>
+        <title>Angga's Public Journal: Bessel's Variance Correction</title>
         <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -66,10 +66,10 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <p>Statistics is all about estimating parameters of processes that produce random variables.
-                          An example of a parameter would be variance which describe or represent the variability of the process.
+                          An example of a parameter would be variance which describe or represent the variability of data from a process.
                           Often, we use this equation to calculate variance</p>
 
-                        $$\hat{\sigma} = \sqrt{\frac{1}{n-1}\sum_{i} ^{}(Y_i - \bar{Y})^2}$$
+                        $$\hat{\sigma}^2 = \frac{1}{n-1}\sum_{i} ^{}(Y_i - \bar{Y})^2$$
 
                         <p>But why do we use $n - 1$ instead of $n$ in variance while we use $n$ in mean? The answer lies in estimation theory.</p>
 
@@ -85,7 +85,7 @@
 
                         $$E(\hat{\theta}) \neq \theta$$
 
-                        <p>The variance $\sigma$ of a random variable $Y$ is described as</p>
+                        <p>The variance $\sigma^2$ of a random variable $Y$ can be described as</p>
 
                         $$\sigma^2 = E(Y-\mu)^2$$
                         $$\sigma^2 = \sum_{} ^{}(y-\mu)^2p(y)$$
@@ -103,11 +103,11 @@
                         We use $n$ in mean so it is natural we also use $n$ in variance, why would we need $n-1$?</p>
 
                         <p>The answer is that this estimator of variance is bias and in order to correct this bias we need some correction.
-                        This correction is called Bessel's correction.</p>
+                        This so called correction is Bessel's correction.</p>
 
                         <h2 class="section-heading">Bessel's correction</h2>
                         <p>How do we remove this bias?
-                        Obviously, to remove the bias we should now how much is the bias first.
+                        Obviously, to remove the bias we should know how much is the bias first.
                         The true variance of the process is given by</p>
 
                         $$\sigma^2 = E(Y-\mu)^2$$
@@ -119,13 +119,15 @@
                         <p>Why? because we use the mean of the sample $\bar{Y}$ instead of the true mean $\mu$.
                         Now if we add and substract $\mu$ from this equation we get</p>
 
-                        $$E(Y-\bar{Y})^2 = E{(Y-\mu)-(\bar{Y}-\mu)}^2$$
+                        $$E(Y-\bar{Y})^2 = E\{(Y-\mu)-(\bar{Y}-\mu)\}^2$$
 
                         <p>If we expand it, </p>
 
-                        $$E{(Y_i-\mu)^2 + (Y-\mu)^2 - 2(Y_i-\mu)(Y-\mu)}$$
+                        $$E\{(Y-\mu)^2 + (\bar{Y}-\mu)^2 - 2(Y-\mu)(\bar{Y}-\mu)\}$$
 
+                        <p>By linearity and additivity of expectation we get</p>
 
+                        $$E\{(Y-\mu)^2\} + E\{(\bar{Y}-\mu)^2\} - 2E\{(Y-\mu)(\bar{Y}-\mu)\}$$
 
                     </div>
                 </div>
