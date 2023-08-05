@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Angga's Public Journal: TITLE</title>
+        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <!-- Mathjax for Latex -->
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {
+              inlineMath: [['$','$'], ['\\(','\\)']], processEscapes: true}
+            });
+        </script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../post.html">Thoughts</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../portofolio.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Maximum Likelihood Estimation</h1>
+                            <h2 class="subheading">A powerfull parametric method</h2>
+                            <span class="meta">
+                                Posted on August 2023
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>There are many ways to estimate parameters of a statistical model.
+                          One of which is maximum likelihood estimation.
+                          This method led to a powerful estimation not only for a normally distributed process but also other kinds of distribution.
+                          It estimates parameters by the use of likelihood function.
+                          What is the likelihood function?</p>
+
+                        <h2 class="section-heading">Likelihood Function</h2>
+
+                        <p>The process that we are trying to model can be described by</p>
+
+                        $$p(y|\theta{}) = Y$$
+
+                        <p>This model read as: given a parameter, the probability that this process result in Y is p(y|theta).
+                          But we do not know the real parameters.
+                          We have our uncertainty about our guesses of the true parameters.
+                          So we estimate the parameter by looking at the data or observing the joint pdf $p(y|\theta{})$.
+                          Or in another word, we make $y$ fixed for a certain range</p>
+
+                        $$L(\theta{}|y)$$
+
+                        <p>This is what is called likelihood function.
+                          It tells us the likelihood of parameter theta given the data that we observed.
+                          And its value is the same as the joint pdf $p(y|\theta{})$ for all available $\theta{}$.</p>
+
+                        <p>It is a distribution because it is a random variable.
+                          But we can select theta that has the highest likelihood of producing the data by finding the highest peak of this distribution.
+                          This is what is called maximum likelihood estimation.</p>
+
+                        <h2 class="section-heading">Maximum Likelihood Estimation</h2>
+
+                        <p>If the likelihood function is continuous and differentiable, then we can use calculus to find $\theta{}$ that has the highest likelihood.
+                          But in practice, numerical methods are used by our computer to iteratively try different sets of theta.
+                          Below is an example of the use of maximum likelihood estimation to model California house value in python.</p>
+
+                        <script src="https://gist.github.com/prakhosha/0caa626cae510e67b7652f30bf6b30b7.js"></script>
+
+                        <h2 class="section-heading">Why Maximum Likelihood Estimation?</h2>
+
+                        <p>Now the question is why do we even use maximum likelihood estimation as opposed to the plug-in estimate?
+                          First, this method can model the uncertainty of our estimate.
+                          Through the use of the likelihood functions we indirectly model our parameter within a certain range of value.
+                          The second reason is that this method is not only able to model normally distributed processes, but also other processes that have weird distributions.
+                          For example a logistic function.
+                          We can see how much logistic function is being used in modern statistics and machine learning.</p>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/angga-prakhosha/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.kaggle.com/prakhosha">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-kaggle fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/prakhosha">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Contact me at: anggaprakhosha@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
