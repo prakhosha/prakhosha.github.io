@@ -84,15 +84,15 @@
 
                         <p>Bayes theorem says that the probability of an event A given B is proportional to the probability of an event B given A times the probability of A, mathematically</p>
 
-                        $$p(A|B) = p(B|A) \times p(A)$$
+                        $$p(A|B) \propto p(B|A) \times p(A)$$
 
                         <p>Now if we apply this theorem to the process and data relationship we get: the probability of a parameter from model given the data (what we are trying to do earlier) is proportional to the probability of the data given the parameter times the probability of the parameter, mathematically</p>
 
-                        $$p(\theta{}|Y) = p(Y|\theta{}) \times p(\theta)$$
+                        $$p(\theta{}|Y) \propto p(Y|\theta{}) \times p(\theta)$$
 
                         <p>The probability of the data given the parameter is identical to the likelihood function of the parameter and we have</p>
 
-                        $$p(\theta{}|Y) = L(\theta{}|Y) \times p(\theta)$$
+                        $$p(\theta{}|Y) \propto L(\theta{}|Y) \times p(\theta)$$
 
                         <p>Usually, the product of likelihood function and prior distribution does not result in a nice function to be solved analytically.
                           So in practice, simulation is used to create new data from posterior distribution.
