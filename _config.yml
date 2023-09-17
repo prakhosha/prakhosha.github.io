@@ -8,7 +8,7 @@ email:            anggaprakhosha@gmail.com
 url:              'https://prakhosha.github.io'
 #baseurl:          '/jekyll-gitbook'
 
-remote_theme : aterenin/minima-reboot
+remote_theme : minimal-mistakes-jekyll
 
 toc:
     enabled: true
