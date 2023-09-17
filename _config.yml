@@ -1,1 +1,14 @@
+# Configurations
+title:            My Public Journal
+longtitle:        My Public Journal
+author:           Angga Bayu Prakhosha
+email:            anggaprakhosha@gmail.com
+description: >
+  My Public Journal
+
 remote_theme : sighingnow/jekyll-gitbook
+
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
