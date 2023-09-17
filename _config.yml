@@ -1,14 +1,20 @@
 # Theme
-remote_theme : mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin    : "contrast"
+remote_theme          : mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin : "contrast"
 
-# Configurations
-title: A Journal
-name: Angga's Journal
+# Site settings
+locale                : "en-US"
+title                 : A Journal
+name                  : Angga Bayu Prakhosha
+url                   : https://prakhosha.github.io/
+breadcrumbs           : true
+atom_feed:
+  hide                : true
+search                : true
 #email:            anggaprakhosha@gmail.com
 #description: >
 
-url:              'https://prakhosha.github.io'
+url                   : 'https://prakhosha.github.io'
 #baseurl:          '/jekyll-gitbook'
 
 plugins:
