@@ -3,13 +3,12 @@ title:            Title
 longtitle:        Long Title
 author:           Angga Bayu Prakhosha
 email:            anggaprakhosha@gmail.com
-description: >
-  Description
+#description: >
 
 url:              'https://prakhosha.github.io'
 #baseurl:          '/jekyll-gitbook'
 
-remote_theme : sighingnow/jekyll-gitbook
+remote_theme : aterenin/minima-reboot
 
 toc:
     enabled: true
