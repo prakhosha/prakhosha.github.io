@@ -1,17 +1,69 @@
+# Theme
+remote_theme : mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin    : "contrast"
+
 # Configurations
-title:            Title
-longtitle:        Long Title
-author:           Angga Bayu Prakhosha
-email:            anggaprakhosha@gmail.com
+title: A Journal
+name: Angga's Journal
+#email:            anggaprakhosha@gmail.com
 #description: >
 
 url:              'https://prakhosha.github.io'
 #baseurl:          '/jekyll-gitbook'
-
-remote_theme : mmistakes/minimal-mistakes@4.24.0
 
 plugins:
   - jekyll-include-cache
 
 toc: true
 toc_label: "My Table of Contents"
+
+
+
+# Site Author
+author:
+  name             : "Angga Bayu Prakhosha"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A *pribadi*"
+  #location         : "Somewhere"
+  email            : anggaprakhosha@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:anggaprakhosha@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://prakhosha.github.io/"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/prakhosha"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Site Footer
+footer:
+  links:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+      # url:
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/prakhosha"
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
+      # url:
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
+      # url:
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+      # url:
