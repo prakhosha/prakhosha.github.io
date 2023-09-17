@@ -8,7 +8,7 @@ email:            anggaprakhosha@gmail.com
 url:              'https://prakhosha.github.io'
 #baseurl:          '/jekyll-gitbook'
 
-remote_theme : minimal-mistakes-jekyll
+remote_theme : mmistakes/minimal-mistakes@4.24.0
 
 toc: true
 toc_label: "My Table of Contents"
