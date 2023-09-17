@@ -6,6 +6,9 @@ email:            anggaprakhosha@gmail.com
 description: >
   Description
 
+url:              'https://prakhosha.github.io'
+#baseurl:          '/jekyll-gitbook'
+
 remote_theme : sighingnow/jekyll-gitbook
 
 toc:
