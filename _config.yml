@@ -11,8 +11,11 @@ breadcrumbs           : true
 atom_feed:
   hide                : true
 search                : true
-#email:            anggaprakhosha@gmail.com
-#description: >
+
+# Site layout
+defaults:
+  values:
+    layout            : single
 
 url                   : 'https://prakhosha.github.io'
 #baseurl:          '/jekyll-gitbook'
