@@ -1,10 +1,10 @@
 # Configurations
-title:            My Public Journal
-longtitle:        My Public Journal
+title:            Title
+longtitle:        Long Title
 author:           Angga Bayu Prakhosha
 email:            anggaprakhosha@gmail.com
 description: >
-  My Public Journal
+  Description
 
 remote_theme : sighingnow/jekyll-gitbook
 
