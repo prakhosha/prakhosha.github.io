@@ -6,7 +6,7 @@ permalink: /journals/
 
 ---
 
-## Probit and Logit Regression
+## [Probit and Logit Regression](https://prakhosha.github.io/probit_and_logit_regression/)
 
 **The building block of artificial intelligence**
 
