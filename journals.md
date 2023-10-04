@@ -28,4 +28,10 @@ permalink: /journals/
 
 # 2020
 
-- Tugas akhir
+---
+
+## [EEG localization of hand grip movement using ICA-eLORETA](https://prakhosha.github.io/EEG-localization-of-hand-grip-movement-using-ICA-eLORETA/)
+
+**Undergraduate thesis**
+
+*Posted on October 2020*
