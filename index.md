@@ -20,12 +20,12 @@ This is a journal in which I keep my thoughts and projects. This is a public jou
 
 ---
 
-**ICA eeg**
-
-*Posted on*
+**[EEG localization of hand grip movement using ICA-eLORETA](https://prakhosha.github.io/EEG-localization-of-hand-grip-movement-using-ICA-eLORETA/)**
+**Undergraduate thesis**
+*Posted on October 2020*
 
 ---
 
 [**Valorant VCT 2022 Player's Playstyle Analysis**](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)
-
+**Valorant player playstyle's Analysis using T-SNE**
 *Posted on January 2023*
