@@ -26,6 +26,6 @@ This is a journal in which I keep all of my thoughts and projects. This is a pub
 
 ---
 
-[**Valorant VCT 2022 Player's Playstyle Analysis.p**](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)
+[**Valorant VCT 2022 Player's Playstyle Analysis**](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)
 
 *Posted on January 2023*
