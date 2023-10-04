@@ -10,7 +10,15 @@ permalink: /journals/
 
 **The building block of artificial intelligence**
 
-*Posted on: September 2023*
+*Posted on September 2023*
+
+---
+
+## [Valorant VCT 2022 Player’s Playstyle Analysis](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)
+
+**Using T-SNE to learn the playstyle of professional players**
+
+*Posted on January 2023*
 
 # 2022
 
