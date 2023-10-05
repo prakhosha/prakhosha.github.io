@@ -1,5 +1,6 @@
 title: Journal
-theme: minima
+#theme: minima
+remote_theme: niklasbuschmann/contrast@v2.11
 
 author:
   name: Angga Bayu Prakhosha
@@ -14,6 +15,10 @@ header_pages:
 - journals.md
 - about.md
 
-minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/prakhosha" }
+plugins:
+  - jekyll-remote-theme
+
+
+#minima:
+#  social_links:
+#    - { platform: github,  user_url: "https://github.com/prakhosha" }
