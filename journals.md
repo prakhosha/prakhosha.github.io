@@ -20,6 +20,15 @@ permalink: /journals/
 
 *Posted on January 2023*
 
+---
+
+**[Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)**
+
+**Dwell deeper to the principles of statistics**
+
+*Posted on January 2023*
+
+
 # 2022
 
 # 2021

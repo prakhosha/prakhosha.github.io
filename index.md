@@ -23,7 +23,7 @@ This is a journal in which I keep my thoughts and projects. This is a public jou
 
 ---
 
-**[EEG localization of hand grip movement using ICA-eLORETA](https://prakhosha.github.io/EEG-localization-of-hand-grip-movement-using-ICA-eLORETA/)**
+**[EEG Localization of Hand Grip Movement using ICA-eLORETA](https://prakhosha.github.io/EEG-localization-of-hand-grip-movement-using-ICA-eLORETA/)**
 
 **Undergraduate thesis**
 
