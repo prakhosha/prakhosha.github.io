@@ -31,7 +31,7 @@ This is a journal in which I keep my thoughts and projects. This is a public jou
 
 ---
 
-[**Valorant VCT 2022 Player's Playstyle Analysis**](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)
+**[Valorant VCT 2022 Player's Playstyle Analysis](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)**
 
 **Valorant professional player playstyle's Analysis using T-SNE**
 
