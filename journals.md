@@ -22,7 +22,7 @@ permalink: /journals/
 
 ---
 
-**[Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)**
+## [Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)**
 
 **Dwell deeper to the principles of statistics**
 
