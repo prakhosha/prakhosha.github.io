@@ -9,17 +9,19 @@ This is a journal in which I keep my thoughts and projects. This is a public jou
 
 ---
 
+**[Motivation Letter](https://prakhosha.github.io/Motivation-Letter/)**
+
+**A sort of rationale of what I want to do with my life**
+
+*Posted on October 2023*
+
+---
+
 **[Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)**
 
 **Dwell deeper to the principles of statistics**
 
 *Posted on January 2023*
-
----
-
-**motivation letter**
-
-*Posted on*
 
 ---
 

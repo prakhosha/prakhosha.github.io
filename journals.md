@@ -6,6 +6,14 @@ permalink: /journals/
 
 ---
 
+## [Motivation Letter](https://prakhosha.github.io/Motivation-Letter/)
+
+**A sort of rationale of what I want to do with my life**
+
+*Posted on October 2023*
+
+---
+
 ## [Probit and Logit Regression](https://prakhosha.github.io/probit_and_logit_regression/)
 
 **The building block of artificial intelligence**
@@ -22,7 +30,7 @@ permalink: /journals/
 
 ---
 
-## [Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)**
+## [Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)
 
 **Dwell deeper to the principles of statistics**
 
