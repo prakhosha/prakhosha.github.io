@@ -12,4 +12,4 @@ If I have to define what I want to do in this life, let me borrow Frankl's class
 2. I would like to experience the worlds and model or represent it using many representations
 3. I would like to fight nihilisim, whether in me or another person
 
-Lastly, welcome to my public journal. This is a journal in which I keep all of my thoughts and projects. This is a public journal in which not every thoughts and projects of mine is kept here.
+Lastly, welcome to my public journal. This is a journal in which I keep my thoughts and projects. This is a public journal in which not every thoughts and projects of mine are kept here.
