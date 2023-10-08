@@ -22,6 +22,14 @@ permalink: /journals/
 
 ---
 
+## [Jensen’s Inequality and The Biasedness of Standard Deviation](https://prakhosha.github.io/Jensen-s-Inequality-and-The-Biasedness-of-Standard-Deviation/)
+
+**Be sceptical of your conclusion**
+
+*Posted on July 2023*
+
+---
+
 ## [Valorant VCT 2022 Player’s Playstyle Analysis](https://prakhosha.github.io/Valorant-VCT-2022-Player-s-Playstyle-Analysis/)
 
 **Using T-SNE to learn the playstyle of professional players**
@@ -30,7 +38,7 @@ permalink: /journals/
 
 ---
 
-## [Bayesian and Frequentist Paradigm]()
+## [Bayesian and Frequentist Paradigm](https://prakhosha.github.io/Bayesian-and-Frequentist-Paradigm/)
 
 **What is the difference between bayesian and frequentist?**
 
