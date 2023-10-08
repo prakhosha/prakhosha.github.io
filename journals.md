@@ -30,6 +30,14 @@ permalink: /journals/
 
 ---
 
+## [Bayesian and Frequentist Paradigm]()
+
+**What is the difference between bayesian and frequentist?**
+
+*Posted on January 2023*
+
+---
+
 ## [Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)
 
 **Dwell deeper to the principles of statistics**
