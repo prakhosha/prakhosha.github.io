@@ -2,6 +2,18 @@
 title: Journals
 permalink: /journals/
 ---
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+        }
+    });
+    </script>
+      
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
 # 2023
 
 ---
@@ -19,6 +31,14 @@ permalink: /journals/
 **The building block of artificial intelligence**
 
 *Posted on September 2023*
+
+---
+
+## [Bessel’s Variance Correction](https://prakhosha.github.io/Bessel-s-Variance-Correction/)
+
+**Why We Use n − 1 to Estimate Variance**
+
+*Posted on July 2023*
 
 ---
 
