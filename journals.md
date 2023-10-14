@@ -23,6 +23,14 @@ permalink: /journals/
 
 ---
 
+## [Maximum Likelihood Estimation](https://prakhosha.github.io/Maximum-Likelihood-Estimation/)
+
+**A powerfull parametric method**
+
+*Posted on August 2023*
+
+---
+
 ## [Self Deception](https://prakhosha.github.io/Self-Deception/)
 
 **Do you really want what you want?**
