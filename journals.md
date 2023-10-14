@@ -23,6 +23,14 @@ permalink: /journals/
 
 ---
 
+## [Bayesian Statistics](https://prakhosha.github.io/Bayesian-Statistics/)
+
+**Update our belief based on the data**
+
+*Posted on September 2023*
+
+---
+
 ## [Problem Solving Thinking](https://prakhosha.github.io/Problem-Solving-Thinking/)
 
 **An Engineer Mindset**
