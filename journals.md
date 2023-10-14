@@ -23,6 +23,14 @@ permalink: /journals/
 
 ---
 
+## [On Reductionism](https://prakhosha.github.io/On-Reductionism/)
+
+**The Case of Epistemology in Modeling**
+
+*Posted on August 2023*
+
+---
+
 ## [Maximum Likelihood Estimation](https://prakhosha.github.io/Maximum-Likelihood-Estimation/)
 
 **A powerfull parametric method**
