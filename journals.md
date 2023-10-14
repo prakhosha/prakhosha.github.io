@@ -23,6 +23,14 @@ permalink: /journals/
 
 ---
 
+## [Problem Solving Thinking](https://prakhosha.github.io/Problem-Solving-Thinking/)
+
+**An Engineer Mindset**
+
+*Posted on August 2023*
+
+---
+
 ## [On Reductionism](https://prakhosha.github.io/On-Reductionism/)
 
 **The Case of Epistemology in Modeling**
