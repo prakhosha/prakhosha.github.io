@@ -23,6 +23,14 @@ permalink: /journals/
 
 ---
 
+## [Self Deception](https://prakhosha.github.io/Self-Deception/)
+
+**Do you really want what you want?**
+
+*Posted on July 2023*
+
+---
+
 ## [A Meaningful Life](https://prakhosha.github.io/Meaningful-Life/)
 
 **Victor Frankl’s will to meaning**
