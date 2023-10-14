@@ -23,6 +23,14 @@ permalink: /journals/
 
 ---
 
+## [A Meaningful Life](https://prakhosha.github.io/Meaningful-Life/)
+
+**Victor Frankl’s will to meaning**
+
+*Posted on July 2023*
+
+---
+
 ## [Bessel’s Variance Correction](https://prakhosha.github.io/Bessel-s-Variance-Correction/)
 
 **Why We Use n − 1 to Estimate Variance**
