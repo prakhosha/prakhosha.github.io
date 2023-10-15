@@ -47,6 +47,14 @@ permalink: /journals/
 
 ---
 
+## [VCT 2023 Champions Analysis](https://prakhosha.github.io/VCT-2023-Champions---Probability-Team-Win-a-Map/)
+
+**Probability a team wins a map**
+
+*Posted on August 2023*
+
+---
+
 ## [Maximum Likelihood Estimation](https://prakhosha.github.io/Maximum-Likelihood-Estimation/)
 
 **A powerfull parametric method**
