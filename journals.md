@@ -143,10 +143,6 @@ permalink: /journals/
 
 ---
 
-# 2021
-
-- lorem ipsum
-
 # 2020
 
 ---
