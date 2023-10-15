@@ -103,6 +103,14 @@ permalink: /journals/
 
 ---
 
+## [Video Games Sales Report Dashboard](https://prakhosha.github.io/Video-Games-Sales-Report-Dashboard/)
+
+**A dashboard that report about video games sales using loooker studio**
+
+*Posted on June 2023*
+
+---
+
 ## [Bayesian and Frequentist Paradigm](https://prakhosha.github.io/Bayesian-and-Frequentist-Paradigm/)
 
 **What is the difference between bayesian and frequentist?**
