@@ -137,7 +137,7 @@ permalink: /journals/
 
 ---
 
-## [Fraud Detection using Random Forest¶](https://prakhosha.github.io/Fraud-Detection-using-Random-Forest/)
+## [Fraud Detection using Random Forest](https://prakhosha.github.io/Fraud-Detection-using-Random-Forest/)
 
 *Posted on October 2022*
 
