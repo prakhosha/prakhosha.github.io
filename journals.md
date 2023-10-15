@@ -128,6 +128,10 @@ permalink: /journals/
 
 # 2022
 
+## [E-mail Spam Classification using LSTM](https://prakhosha.github.io/E-mail-Spam-Classification-Using-LSTM/)
+
+*Posted on October 2022*
+
 # 2021
 
 - lorem ipsum
