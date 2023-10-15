@@ -125,12 +125,23 @@ permalink: /journals/
 
 *Posted on January 2023*
 
+---
 
 # 2022
+
+---
 
 ## [E-mail Spam Classification using LSTM](https://prakhosha.github.io/E-mail-Spam-Classification-Using-LSTM/)
 
 *Posted on October 2022*
+
+---
+
+## [Fraud Detection using Random Forest¶](https://prakhosha.github.io/Fraud-Detection-using-Random-Forest/)
+
+*Posted on October 2022*
+
+---
 
 # 2021
 
