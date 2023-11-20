@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Entropy and Independent Component Analysis](https://prakhosha.github.io/Entropy-and-Independent-Component-Analysis/)
+
+**Blind source separation using complex system framework**
+
+*Posted on November 2023*
+
+---
+
 ## [Motivation Letter](https://prakhosha.github.io/Motivation-Letter/)
 
 **A sort of rationale of what I want to do with my life**
