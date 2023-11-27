@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [The Little Prince's Existensial Journey](https://prakhosha.github.io/The-Little-Prince/)
+
+**Camus's absurdism in the little prince**
+
+*Posted on November 2023*
+
+---
+
 ## [Entropy and Independent Component Analysis](https://prakhosha.github.io/Entropy-and-Independent-Component-Analysis/)
 
 **Blind source separation using complex system framework**
