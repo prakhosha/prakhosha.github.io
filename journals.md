@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Differential Equation and Numerical Method](https://prakhosha.github.io/Differential-Equation-and-Numerical-Method/)
+
+**Towards Dynamical Systems Modeling**
+
+*Posted on December 2023*
+
+---
+
 ## [The Little Prince's Existensial Journey](https://prakhosha.github.io/The-Little-Prince/)
 
 **Camus's absurdism in the little prince**
