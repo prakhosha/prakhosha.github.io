@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Universitas dan Sains Sistem Kompleks](https://prakhosha.github.io/Universitas-dan-Sains-Sistem-Kompleks/)
+
+**Sains sistem kompleks sebagai jawaban, tantangan, dan potensi universitas**
+
+*Posted on December 2023*
+
+---
+
 ## [Differential Equation and Numerical Method](https://prakhosha.github.io/Differential-Equation-and-Numerical-Method/)
 
 **Towards Dynamical Systems Modeling**
