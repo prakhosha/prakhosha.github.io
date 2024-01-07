@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Recurrent Neural Network with PyTorch](https://prakhosha.github.io/PyTorch-RNN/)
+
+**Implemention of recurrent neural network to forecast company revenue using PyTorch**
+
+*Posted on January 2024*
+
+---
+
 ## [Universitas dan Sains Sistem Kompleks](https://prakhosha.github.io/Universitas-dan-Sains-Sistem-Kompleks/)
 
 **Sains sistem kompleks sebagai jawaban, tantangan, dan potensi universitas**
