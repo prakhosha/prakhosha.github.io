@@ -3,7 +3,7 @@ title: Journals
 permalink: /journals/
 ---
 
-# 2023
+# 2024
 
 ---
 
@@ -12,6 +12,10 @@ permalink: /journals/
 **Implemention of recurrent neural network to forecast company revenue using PyTorch**
 
 *Posted on January 2024*
+
+---
+
+# 2023
 
 ---
 
