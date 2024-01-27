@@ -7,6 +7,16 @@ permalink: /journals/
 
 ---
 
+## [Sistem Kacau](https://prakhosha.github.io/Artikel-Sistem-Kacau/)
+
+**Tidak semua sistem dapat terprediksi**
+
+*Posted on January 2024*
+
+---
+
+---
+
 ## [Recurrent Neural Network with PyTorch](https://prakhosha.github.io/PyTorch-RNN/)
 
 **Implemention of recurrent neural network to forecast company revenue using PyTorch**
