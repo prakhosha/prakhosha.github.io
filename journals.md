@@ -7,13 +7,19 @@ permalink: /journals/
 
 ---
 
+## [Dugaan Bayes, DAG, dan Pemrograman Probabilistik](https://prakhosha.github.io/Tulisan-Dugaan-Bayes-DAG-dan-Pemrograman-Probabilistik-Studi-Kasus-Regresi-Harga-Rumah/)
+
+**Studi Kasus Regresi Harga Rumah**
+
+*Posted on February 2024*
+
+---
+
 ## [Sistem Kacau](https://prakhosha.github.io/Artikel-Sistem-Kacau/)
 
 **Tidak semua sistem dapat terprediksi**
 
 *Posted on January 2024*
-
----
 
 ---
 
