@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Bayesian Neural Network](https://prakhosha.github.io/Bayesian-Neural-Network/)
+
+**Neural network dengan keluaran fungsi kepadatan probabilitas**
+
+*Posted on March 2024*
+
+---
+
 ## [Dugaan Bayes, DAG, dan Pemrograman Probabilistik](https://prakhosha.github.io/Tulisan-Dugaan-Bayes-DAG-dan-Pemrograman-Probabilistik-Studi-Kasus-Regresi-Harga-Rumah/)
 
 **Studi Kasus Regresi Harga Rumah**
