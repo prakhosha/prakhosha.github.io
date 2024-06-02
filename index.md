@@ -17,11 +17,11 @@ This is a journal in which I keep my thoughts and projects. This is a public jou
 
 ---
 
-**[Story on Statistics](https://prakhosha.github.io/A-Story-on-Statistics/)**
+**[Cinta, Tanggung Jawab, dan Ikatan](https://prakhosha.github.io/Cinta-Tanggung-Jawab-dan-Ikatan/)**
 
-**Dwell deeper to the principles of statistics**
+**Apa yang menjadikan seorang manusia hidup?**
 
-*Posted on January 2023*
+*Posted on June 2024*
 
 ---
 

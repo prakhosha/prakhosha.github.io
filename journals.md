@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Cinta, Tanggung Jawab, dan Ikatan](https://prakhosha.github.io/Cinta-Tanggung-Jawab-dan-Ikatan/)
+
+**Apa yang menjadikan seorang manusia hidup?**
+
+*Posted on June 2024*
+
+---
+
 ## [Bayesian Neural Network](https://prakhosha.github.io/Bayesian-Neural-Network/)
 
 **Neural network dengan keluaran fungsi kepadatan probabilitas**
