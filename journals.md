@@ -7,6 +7,14 @@ permalink: /journals/
 
 ---
 
+## [Tentang Sakit, Sebuah Keunikan, dan Secercah Perubahan](https://prakhosha.github.io/Tentang-Sakit-Sebuah-Keunikan-dan-Secercah-Perubahan/)
+
+**Memandang sakit dan keunikan dalam kacamata positif**
+
+*Posted on June 2024*
+
+---
+
 ## [Cinta, Tanggung Jawab, dan Ikatan](https://prakhosha.github.io/Cinta-Tanggung-Jawab-dan-Ikatan/)
 
 **Apa yang menjadikan seorang manusia hidup?**
