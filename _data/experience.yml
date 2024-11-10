@@ -1,19 +1,25 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Data Analyst of PT. Transavia Otomasi Pratama
+- company: PT. Transavia Otomasi Pratama
+  position: Data Analyst
+  duration: June, 2023 &mdash; Present
+  summary: <ul class="resume-item-list"><li>Pioneered business intelligence (BI) solutions for all analytic aspects of the company using Microsoft Power BI.</li><li>Designed database architecture for BI solutions.</li><li>Perform statistical analysis using conventional methods and machine learning such as clustering and prediction.</li><li> Regular performance reporting to stakeholders from inside and outside the company.</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# Data Scientist of PT. Riset Nusantara Genetika
+- company: PT. Riset Nusantara Genetika
+  position: Data Scientist
+  duration:  Oct, 2020 &mdash; June, 2021
+  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience. <ul class="resume-item-list"><li>Developed skin healthiness index using machine learning classifier in Python.</li><li>Researching skin healthiness index through several features ranging from bacteria-fungi composition to customers behavior.</li>Performed model comparisons using various statistical analysis.</li></li></ul>
 
 
-# Communications Coordinator
+# Teaching Assistant of Instrumentation and Control Laboratory
 - company: Springfield Women & Children's Center
   position: Communications Coordinator
   duration:   Jun, 2008  &mdash; May, 2010
   summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+
+# Labmember,MedicalInstrumentation Laboratory Engineering Physics ITB
+
+# Teaching Assistant of Engineering Physics Laboratory II “Microprocessor and Digital Logic”
+
+
