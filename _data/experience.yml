@@ -12,13 +12,11 @@
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience. <ul class="resume-item-list"><li>Developed skin healthiness index using machine learning classifier in Python.</li><li>Researching skin healthiness index through several features ranging from bacteria-fungi composition to customers behavior.</li>Performed model comparisons using various statistical analysis.</li></li></ul>
 
 
-# Teaching Assistant of Instrumentation and Control Laboratory
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
-
 # Labmember,MedicalInstrumentation Laboratory Engineering Physics ITB
+- company: Laboratory Medical Instrumentation, Faculty of Industrial Technology, Institut Teknologi Bandung
+  position: Teaching Assistant and Laboratory Member
+  duration:   Sep, 2019  &mdash; Sep, 2010
+  summary: <ul class-"resume-item-list"><li>Researching the inverse problem of EEG signal processing through my thesis for the purpose of rehabilitation study.</li><li>Created the laboratory course’s manual for the “Biomedical Signal Processing” module using electromyography (EMG) processed by either Matlab or Python and guided participants through the module.</li><li>Participated in clients EEG brain signals measurement in cooperation with the local hospital.</li></ul>
 
 # Teaching Assistant of Engineering Physics Laboratory II “Microprocessor and Digital Logic”
 
