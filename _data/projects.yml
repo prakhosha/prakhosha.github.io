@@ -1,16 +1,30 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+# Valorant behavioral analysis
+- project: Valorant VCT 2022 Professional Player’s Playstyle Behavior Analysis
+  #role: Founder & Primary Developer
+  duration: Jan 2023
+  url: "https://github.com/prakhosha/Valorant-VCT-2022-Player-s-Playstyle-Analysis/blob/main/Valorant%20VCT%202022%20Player's%20Playstyle%20Analysis.pdf"
+  description: Behavioral analysis of professional e-sport players using T-SNE algorithm.
+
+# Bachelor thesis
+- project: Study on 3D Imaging of Broadmann Area for Hand Gripping Activity Based on EEG Signal using ICA-eLORETA
+  #role: Founder & Primary Developer
+  duration: Sep 2020
+  url: "https://digilib.itb.ac.id/gdl/view/49813/"
+  description: The use of independent component analysis on the inverse problem of EEG signal as a part of my undergraduate thesis.
+
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+#- project: jazznotes.io
+#  role: Founder & Primary Developer
+#  duration: 2012 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+#  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+#- project: Springfield Community Outreach Group
+#  role: Co-Founder & Organizer
+#  duration: 2007 &mdash; Present
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+#  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
