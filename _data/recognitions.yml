@@ -1,10 +1,36 @@
 # Recognitions
-- award: Outstanding Achievement
-  organization: Springfield Young Professionals
-  year: 2010, 2014
-  summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
 
-- award: Most Likely To Succeed
-  organization: Springfield High School
-  year: 2004
-  summary: Voted Most Likely To Succeed by a panel of my high school peers.
+- award: Introduction to Complexity
+  organization: Santa Fe Institute
+  year: Jan 2024
+  #summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+
+- award: IBM Data Science
+  organization: IBM x Coursera
+  year: Oct 2020
+  #summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+
+- award: TensorFlow Developer
+  organization: DeepLearning.AI x Coursera
+  year: Aug 2020
+  #summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+
+- award: Neural Networks and Deep Learning
+  organization: DeepLearning.AI x Coursera
+  year: Feb 2020
+  #summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+
+- award: Machine Learning
+  organization: Stanford University x Coursera
+  year: Sep 2019
+  #summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+
+#- award: Outstanding Achievement
+#  organization: Springfield Young Professionals
+#  year: 2010, 2014
+#  summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+
+#- award: Most Likely To Succeed
+#  organization: Springfield High School
+#  year: 2004
+#  summary: Voted Most Likely To Succeed by a panel of my high school peers.
