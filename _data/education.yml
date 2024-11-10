@@ -1,13 +1,13 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Bachelor of Science in Engineering Physics, Human Rights
+  uni: Institut Teknologi Bandung
+  year: 2016 &mdash; 2020
+  #awards:
+  #  - award:
+  summary: Community service department staff of engineering physics student organization (HMFT ITB) in 2019- 2020, Head of HMFT ITB Orientation program for new members in 2018, Senatorial staff of HMFT ITB in 2017- 2018. Mentor for new students in OSKM ITB 2017.
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+#- degree: High School Diploma
+#  uni: Springfield High School
+#  year: 2004
+#  award: Most likely to succeed
+#  summary: You can choose to have either a single or multiple awards
