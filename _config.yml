@@ -1,6 +1,6 @@
 # Site settings
-title: "Angga Bayu Prakhosha's resume"
-description: "General resume of me"
+title: "Prakhosha"
+description: "Angga Bayu Prakhosha's resume"
 
 # Build settings
 markdown: kramdown
@@ -10,8 +10,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Angga Bayu Prakhosha"
-resume_title:                   "Data Scientist"
+resume_name:                    "Human is a System of Values"
+resume_title:                   "Angga Bayu Prakhosha"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "anggaprakhosha@gmail.com"
