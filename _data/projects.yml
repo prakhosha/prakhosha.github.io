@@ -1,12 +1,26 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+# Valorant VCT 2023 Analytics
+- project: Valorant VCT 2023 Analytics
+#  role: Founder & Primary Developer
+  duration: Aug 2023
+  url: "https://github.com/prakhosha/VCT-2023-Champions---Probability-Team-Win-a-Map"
+  description: Teams analytics of Valorant VCT 2023
+
 # Valorant behavioral analysis
 - project: Valorant VCT 2022 Professional Player’s Playstyle Behavior Analysis
   #role: Founder & Primary Developer
   duration: Jan 2023
   url: "https://github.com/prakhosha/Valorant-VCT-2022-Player-s-Playstyle-Analysis/blob/main/Valorant%20VCT%202022%20Player's%20Playstyle%20Analysis.pdf"
   description: Behavioral analysis of professional e-sport players using T-SNE algorithm.
+
+# Dashboards
+- project: Dashboards
+  role: Creator
+  #duration: Jan 2023
+  url: "https://github.com/prakhosha/Dashboards"
+  description: A list of analytial dashboards that I have developed
 
 # Bachelor thesis
 - project: Study on 3D Imaging of Broadmann Area for Hand Gripping Activity Based on EEG Signal using ICA-eLORETA
