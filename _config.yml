@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Art is the creation of values, Science can shape the values of systems, to philosophize is valuing"
+resume_name:                    "Man should not ask what the meaning of his life is, but rather he must recognize that it is he who is asked -- Victor Frankl"
 resume_title:                   "Angga Bayu Prakhosha"
 
 # used for the contact button in _layouts/resume.html
