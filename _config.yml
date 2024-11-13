@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Man should not ask what the meaning of his life is, but rather he must recognize that it is he who is asked -- Victor Frankl"
+resume_name:                    "creating values"
 resume_title:                   "Angga Bayu Prakhosha"
 
 # used for the contact button in _layouts/resume.html
