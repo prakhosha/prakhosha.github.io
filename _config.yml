@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "creating values"
+resume_name:                    "Komorebi"
 resume_title:                   "Angga Bayu Prakhosha"
 
 # used for the contact button in _layouts/resume.html
