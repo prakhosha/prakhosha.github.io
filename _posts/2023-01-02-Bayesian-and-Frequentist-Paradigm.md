@@ -8,11 +8,11 @@ Before we explain bayesian paradigm, we need to have a clear understanding that 
 
 But do not worry, we can easily assume that all samples come from the same model (which is the true model) and assign a probability distribution to it. This is the heart of bayesian paradigm. We will never know the true parameter (in the case above, the parameter is mean) of the model because variability exists in the world. But bayesian is not going to stop there, so they model this variability of the parameter using probability distribution. Figure below shows what bayesians believe about the nature of a parameter.
 
-[image]
+![image](_assets/image1.png "Bayesian Parameter")
 
 But wait a second, isn’t the parameter of the model supposed to be one value as opposed to many values? You know.. because the true model should be one. This is what frequentists say about bayesians distribution of parameters. They do not want to use probability distribution to model the parameter of the model. To frequentist, the parameter is fixed on some value that they do not know. Frequenstist belief about a parameter of model can be seen from figure below.
 
-[image]
+![image](_assets/image2.png "Frequentist Parameter")
 
 So what is a frequentist gonna do to reduce the variability in the parameter? They simulate. Whether it is using real experiment, simulation software, or even mental simulation, they simulate the model to produce many sets of samples. After that they can make a statement such as “After repeated number of simulations, 95% of the times the sets of samples will have a mean in the range between X1 and X2. So, I am confident 95% of the times the mean of the model will be between X1 and X2”. Notice that frequentists do not say anything about probability of parameter because they do not want to create a probability distribution of the parameter. Instead they replace it with confidence.
 
